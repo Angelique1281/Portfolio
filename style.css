@@ -49,6 +49,7 @@ body {
     margin: 0;
     padding: 0;
     flex: 1;
+    
   }
 
   .menu
@@ -191,7 +192,7 @@ body {
     color: var(--secondary-color);
     margin: 0;
   }
-
+ 
   .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -341,7 +342,7 @@ body {
 .page-photoshop .page-title,
 .page-illustrator .page-title {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 100px;
     font-family: 'Holtwood One SC', serif;
 }
 
@@ -354,6 +355,7 @@ body {
     }    
 
 .page-photoshop1 .title {
+    margin-top: 70px;
     text-align: center;
     margin-bottom: 4px;
     font-family: 'Holtwood One SC', serif;
@@ -396,10 +398,9 @@ body {
 .photo-item {
     background-color: #3e0110;
     margin-top: 100px;       
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
     text-align: center;
-    border-radius:60px;
     padding-bottom: 50px;
 }
     
@@ -439,6 +440,7 @@ body {
     margin-bottom: 4px;
     font-family: 'Holtwood One SC', serif;
     color: #ffecba;
+    margin-top: 70px;
 }    
         
 .page-photoshop2 .description {
