@@ -13,24 +13,26 @@
     <input type="checkbox" id="toggle-menu" class="toggle-menu" />
     <label for="toggle-menu" class="menu-icon">&#9776;</label>
     <ul class="menu">
-      <li><a href="#">Accueil</a></li>
-      <li><a href="projets.html">Projets</a></li>
-      <li><a href="#" class="custom-font">AC</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="Apropos.html">À propos</a></li>
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#ac" class="custom-font">AC</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#a-propos">À propos</a></li>
     </ul>
   </div>
-  
-  <div class="main-content"> 
 
+  <section id="accueil">
+  <div class="main-content"> 
   <div class="sub-header">
     <img src="IMG_0478.JPG" alt="Photo de profil" class="profile-photo"> 
     <h1 class="title">Portfolio</h1>
     <p class="name">Angélique Celli</p>
     <p class="description">Bachelor Universitaire de Technologie – Métiers du Multimédia et de l’Internet</p>
-    <a href="projets.html" class="button">Découvrir mes projets</a>
+    <a href="index.html#projets" class="button">Découvrir mes projets</a>
   </div>
+</section>
   
+<section id="projets">
   <div class="page-projets">
     <div class="project-container">
       <div class="project-card">
@@ -62,31 +64,84 @@
         </div>
       </div>
     </div>
-   <div class="page-apropos">
-      <section class="about-section">
-        <div class="about-header">
-            <h1 class="about-title">À propos de moi</h1>
-        </div>
-        <div class="academic-section">
-            <h2 class="section-title">Parcours académique</h2>
-            <p class="section-description">
-                Baccalauréat Général mention AB obtenu en 2023 au lycée Laetitia Bonaparte à Ajaccio.
+  </section>
+
+  <section id="a-propos">
+    <div class="about-container">
+      <h1 class="about-title">
+        À propos de moi
+      </h1>
+  
+      <div class="about-content">
+        <div class="about-section">
+          <div class="about-line"></div>
+          <div class="about-text">
+            <h2 class="about-heading">Parcours académique</h2>
+            <p>
+              Baccalauréat Général mention AB obtenu en 2023 au lycée Laetitia Bonaparte à Ajaccio. <br><br>
+              Je suis actuellement étudiante en première année du BUT MMI (Métiers du Multimédia et de l'Internet). 
+              C'est un BUT qui forme des professionnels polyvalents capables de concevoir, créer et gérer des projets numériques alliant créativité, communication et technologie.
             </p>
-            <p class="section-description">
-                Je suis actuellement étudiante en première année du BUT MMI (Métiers du Multimédia et de l’Internet). 
-                C’est un BUT qui forme des professionnels polyvalents capables de concevoir, créer et gérer des projets 
-                numériques alliant créativité, communication et technologie.
-            </p>
+          </div>
         </div>
-        <div class="experience-section">
-            <h2 class="section-title">Expérience internationale</h2>
-            <p class="section-description">
-                J’ai consacré une année à New York pour perfectionner mon anglais, au sein d’un environnement multiculturel stimulant. 
-                Cette expérience m’a permis d’améliorer mes compétences linguistiques, de développer une meilleure compréhension 
-                des cultures internationales et de renforcer mon adaptabilité dans un contexte étranger.
+  
+        <div class="about-section">
+          <div class="about-text">
+            <h2 class="about-heading">Expérience internationale</h2>
+            <p>
+              J'ai consacré une année à New York pour perfectionner mon anglais, au sein d'un environnement multiculturel stimulant. 
+              Cette expérience m'a permis d'améliorer mes compétences linguistiques, de développer une meilleure compréhension des cultures internationales 
+              et de renforcer mon adaptabilité dans un contexte étranger.
             </p>
+          </div>
         </div>
-    </section>
+         <!-- Section 3 : Compétences -->
+      <div class="about-section">
+        <div class="about-text">
+          <h2 class="about-heading">Compétences</h2>
+          <ul>
+            <li>HTML/CSS - Création de sites web modernes</li>
+            <li>Graphisme - Maîtrise de Photoshop et Canva</li>
+            <li>Montage vidéo - Utilisation de CapCut et Premiere Pro</li>
+            <li>Communication digitale - Stratégies réseaux sociaux</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section pourcentage -->
+    <div class="about-skills">
+      <h2 class="about-heading">Niveaux de compétence</h2>
+      <div class="skill">
+        <span>HTML/CSS</span>
+        <div class="progress-bar">
+          <div class="progress" style="width: 50%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span>Graphisme</span>
+        <div class="progress-bar">
+          <div class="progress" style="width: 80%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span>Montage vidéo</span>
+        <div class="progress-bar">
+          <div class="progress" style="width: 60%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span>Stratégie de communication</span>
+        <div class="progress-bar">
+          <div class="progress" style="width: 65%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+
+    <section id="contact">
    <div class="page-contact">
     <div class="form-container">
         <h1>Formulaire de contact</h1>
@@ -117,12 +172,23 @@
         </form>
     </div>
 </body>
+</section>
+
+
   <footer>
-   <div class="contact-info">
-    <h1 class="contact-title">Mes coordonnées</h1>
-    <p class="contact-item">Téléphone : 06 95 50 30 56</p>
-    <p class="contact-item">Adresse : Lieu dit Bonacursuccia, Afa 20167</p>
-    <p class="contact-item">Email : angelique.celli@orange.fr</p>
-   </div>
-  </footer>
+    <div class="contact-info">
+     <h1 class="contact-title">Mes coordonnées</h1>
+     <p class="contact-item">Téléphone : 06 95 50 30 56</p>
+     <p class="contact-item">Email : angelique.celli@orange.fr</p>
+     <p class="contact-item">Adresse : Afa, 20167</p>
+     <div class="map-container">
+       <iframe
+         width="600" height="300" frameborder="0" style="border:0"
+         src="https://www.openstreetmap.org/export/embed.html?bbox=8.710563063621521%2C41.92454154048223%2C8.77761697769165%2C41.9730467216545&layer=mapnik&marker=41.9486%2C8.7491"
+         allowfullscreen></iframe>
+     </div>
+    </div>
+ </footer>
+ 
+
 </html>
