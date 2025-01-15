@@ -23,14 +23,12 @@ section {
   scroll-margin-top: 70px;
 }
 
-/* Style général */
 .main-content {
     margin: 0;
     background-color: var(--background-color);
     color: var(--primary-color);
 }
-
-  
+ 
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -41,8 +39,8 @@ section {
     position: fixed;
     width: 100vw;
     z-index: 100;
-    
   }
+
   .menu-icon {
     font-size: 2em;
     color: var(--secondary-color);
@@ -61,14 +59,12 @@ section {
     
   }
 
-  .menu
-  {
+  .menu  {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
   }
-
 
   .menu li {
     margin: 0 10px;
@@ -84,13 +80,11 @@ section {
     padding: 4px 65px;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
   }
+
   .menu li a:hover {
     color: #736552;
     transform: scale(1.3);
   }
-
-
-
 
   .toggle-menu {
     display: none;
@@ -103,13 +97,12 @@ section {
     display: none;
   }
   
-
   .burger-icon span {
     width: 25px;
     height: 3px;
     background-color: var(--secondary-color);
     border-radius: 2px;
-}
+  }
 
 @media (max-width: 768px) {
   .menu {
@@ -146,7 +139,6 @@ section {
     font-size: 30px;
   }
   
-
   .sub-header {
     text-align: center;
     margin: 50px 0;
@@ -281,7 +273,7 @@ section {
   
   
     
- /* Style général pour la page Photoshop et la page Illustrator*/
+ /* Page Photoshop et Illustrator*/
 .page-photoshop,
 .page-illustrator  {
     background-color: var(--primary-color);
@@ -341,8 +333,7 @@ section {
 .page-illustrator .project-overlay p {
     margin: 5px 0 0;
     font-size: 0.9rem;
-    font-weight: normal;
-    
+    font-weight: normal;    
 }
 
 .project-overlay
@@ -415,8 +406,7 @@ section {
     text-align: center;
     padding-bottom: 50px;
 }
-
-    
+   
 .photo-item img {
     max-width: 25%;
     height: auto;
@@ -425,13 +415,11 @@ section {
 .photo-item img:hover {
   transform: scale(1.7);
 }
-
-    
+   
 .photo-item h5 {
     margin: 10px 0;
 }
-    
-    
+       
 .photo-title  {
     color: #ffe587;
     margin: 30px;
@@ -443,9 +431,9 @@ section {
     font-size: 1.3rem ;
     margin: 30px;
     color: #ffffff;
-    text-align: center;
-    
+    text-align: center;    
 }
+
 
 
  /* Page Photoshop2 (Affiche parfum)*/
@@ -609,7 +597,6 @@ body.about-page {
     height: 0; 
   }
 }
-
 
 .about-text {
   max-width: 45%; 
