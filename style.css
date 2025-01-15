@@ -415,11 +415,17 @@ section {
     text-align: center;
     padding-bottom: 50px;
 }
+
     
 .photo-item img {
-    max-width: 40%;
+    max-width: 25%;
     height: auto;
 }
+
+.photo-item img:hover {
+  transform: scale(1.7);
+}
+
     
 .photo-item h5 {
     margin: 10px 0;
