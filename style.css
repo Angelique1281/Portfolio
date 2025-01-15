@@ -703,11 +703,13 @@ body.about-page {
     margin-top: 20px;
   }
   
-  .map-container iframe {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
+  .map-frame {
+      width: 100%;
+      max-width: 600px;
+      height: 140px;
+      border: 0;
+      border-radius: 10px;
+    }
   
   
   
