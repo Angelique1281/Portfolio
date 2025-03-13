@@ -1,3 +1,25 @@
+<?php
+   $pdo = require 'include/connect.php';
+
+   // Récupérer les données de la table home
+   $sqlHome = 'SELECT * FROM home';
+   $statementHome = $pdo->query($sqlHome);
+   $home_data = $statementHome->fetch(PDO::FETCH_ASSOC);
+
+   // Récupérer les données de la table navbar
+   $sqlNavbar = 'SELECT * FROM navbar';
+   $statementNavbar = $pdo->query($sqlNavbar);
+   $navbar_data = $statementNavbar->fetch(PDO::FETCH_ASSOC);
+
+   $sqlcontact = 'SELECT * FROM contact';
+   $statementcontact = $pdo->query($sqlcontact);
+   $contact_data = $statementcontact->fetch(PDO::FETCH_ASSOC);
+
+   $sqlaboutme = 'SELECT * FROM aboutme';
+   $statementaboutme = $pdo->query($sqlaboutme);
+   $aboutme_data = $statementaboutme->fetch(PDO::FETCH_ASSOC);
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
