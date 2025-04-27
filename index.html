@@ -187,26 +187,5 @@
   </footer>
 </body>
 </html>
-<?php
-include('db_connect.php');  // Inclure la connexion à la base de données
 
-// Récupérer les articles depuis la base de données
-$sql = "SELECT * FROM articles ORDER BY date_creation DESC";
-$result = $conn->query($sql);
-
-// Vérifier si des articles sont trouvés
-if ($result->num_rows > 0) {
-    // Afficher les articles
-    while($row = $result->fetch_assoc()) {
-        echo "<h2>" . $row["titre"] . "</h2>";
-        echo "<p>" . $row["contenu"] . "</p>";
-        echo "<small>Publié le : " . $row["date_creation"] . "</small><hr>";
-    }
-} else {
-    echo "Aucun article trouvé.";
-}
-
-// Fermer la connexion
-$conn->close();
-?>
 
