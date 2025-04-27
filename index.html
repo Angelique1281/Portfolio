@@ -1,24 +1,3 @@
-<?php
-   $pdo = require 'include/connect.php';
-
-   // Récupérer les données de la table home
-   $sqlHome = 'SELECT * FROM home';
-   $statementHome = $pdo->query($sqlHome);
-   $home_data = $statementHome->fetch(PDO::FETCH_ASSOC);
-
-   // Récupérer les données de la table navbar
-   $sqlNavbar = 'SELECT * FROM navbar';
-   $statementNavbar = $pdo->query($sqlNavbar);
-   $navbar_data = $statementNavbar->fetch(PDO::FETCH_ASSOC);
-
-   $sqlcontact = 'SELECT * FROM contact';
-   $statementcontact = $pdo->query($sqlcontact);
-   $contact_data = $statementcontact->fetch(PDO::FETCH_ASSOC);
-
-   $sqlaboutme = 'SELECT * FROM aboutme';
-   $statementaboutme = $pdo->query($sqlaboutme);
-   $aboutme_data = $statementaboutme->fetch(PDO::FETCH_ASSOC);
-?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -63,7 +42,7 @@
           <div class="project-card">
             <a href="photoshop.html">
               <img src="sale_303732_primary_image.jpg" alt="Fond Photoshop" class="background-image">
-              <div class="overlay">
+              <div class="project-overlay">
                 <img src="Adobe_Photoshop_CC_icon.svg.png" alt="Logo Photoshop" class="logo">
                 <h3 class="project-title">Photoshop</h3>
                 <p class="project-description">Montage photo</p>
